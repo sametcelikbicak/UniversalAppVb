@@ -12,9 +12,6 @@ Public NotInheritable Class MainPage
         message.Title = "Hello World"
         message.Commands.Add(New UICommand("Yes"))
         message.Commands.Add(New UICommand("No"))
-        message.CancelCommandIndex = 0
-        message.CancelCommandIndex = 1
-
 
         Dim result = Await message.ShowAsync()
         If result.Label = "Yes" Then
