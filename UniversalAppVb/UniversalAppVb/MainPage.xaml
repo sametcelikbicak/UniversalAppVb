@@ -1,0 +1,14 @@
+﻿<Page
+    x:Class="UniversalAppVb.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UniversalAppVb"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:Name="txtHelloWorld" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Hello World" VerticalAlignment="Top" Height="178" Width="340" FontSize="30" TextAlignment="Center"/>
+        <Button x:Name="btnHelloWorld" Content="Hello World" HorizontalAlignment="Left" Margin="10,355,0,0" VerticalAlignment="Top" Height="51" Width="340" FontSize="30" Click="btnHelloWorld_Click"/>
+    </Grid>
+</Page>
